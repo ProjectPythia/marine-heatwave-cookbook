@@ -10,6 +10,8 @@ dependencies:
   - numpy
   - xarray
   - matplotlib
+  - pydap
+  - dask
   - pip
   - pip:
       - sphinx-pythia-theme
