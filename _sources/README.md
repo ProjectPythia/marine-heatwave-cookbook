@@ -1,19 +1,26 @@
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# Marine Heatwaves Cookbook
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/marine-heatwave-cookbook/main?labpath=notebooks)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers how marine heatwaves forecast is generated and
+detected based on available observational data. 
+
+This cookbook is initiated during the pythia cookoff 2023.
+
+To understand more scientific detail of the forecast skill please check out [Jacox et al., 2022](http://doi.org/10.1038/s41586-022-04573-9)
+
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+The marine heatwave have started to become one of the many "hot topics" in climate science. 
+This cookbook is mainly based on the 
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Chia-Wei Hsu](@chiaweh2)
 
 ### Contributors
 
@@ -23,15 +30,17 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken up into two main sections - "How a marine heatwave is defined" and "Marine heatwave application"
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### How a marine heatwave is defined
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+In this section, we will use the observational data to show how a marine heatwave is defined.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Marine heatwave application
 
-(Add content for this section, e.g., "Example workflows include ... ")
+In the application section, we will show 
+1. How a marine heatwave is being forecast shown in [PSL Marine Heatwave Portal](https://psl.noaa.gov/marine-heatwaves/)?
+2. Is it possible to track how a marine heatwave moves in the ocean?
 
 ## Running the Notebooks
 
@@ -60,15 +69,15 @@ If you are interested in running this material locally on your computer, you wil
 
 (Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/chiaweh2/marine-heatwave-cookbook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/chiaweh2/marine-heatwave-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `marine-heatwave-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd marine-heatwave-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
