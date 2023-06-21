@@ -1,23 +1,23 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: Project Pythia Cookbook Template
-author: the <a href="https://projectpythia.org/">Project Pythia</a> Community
+title: Marine Heatwave Cookbook
+author: Chia-Wei Hsu
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
 email: projectpythia@ucar.edu
 copyright: "2023"
 
-description: A sample cookbook description.
-thumbnail: thumbnail.png
+description: This Project Pythia Cookbook covers how marine heatwaves forecast is generated and detected based on available observational data. 
+thumbnail: notebooks/images/MHW_maps_demo3.png
 tags:
   domains:
-    - sampledomain
+    - climate
   packages:
-    - samplepackage
+    - xarray
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
-  execute_notebooks: cache
+  execute_notebooks: cashe
   timeout: 600
   allow_errors: False # cells with expected failures must set the `raises-exception` cell tag
 
@@ -44,7 +44,7 @@ sphinx:
     html_permalinks_icon: '<i class="fas fa-link"></i>'
     html_theme_options:
       home_page_in_toc: true
-      repository_url: https://github.com/ProjectPythia/cookbook-template/ # Online location of your book
+      repository_url: https://github.com/chiaweh2/marine-heatwave-cookbook/ # Online location of your book
       repository_branch: main # Which branch of the repository should be used when creating links (optional)
       use_issues_button: true
       use_repository_button: true
