@@ -8,7 +8,7 @@ email: projectpythia@ucar.edu
 copyright: "2023"
 
 description: This Project Pythia Cookbook covers how marine heatwaves forecast is generated and detected based on available observational data. 
-thumbnail: notebooks/images/MHW_maps_demo3.png
+thumbnail: MHW_maps_demo3.png
 tags:
   domains:
     - climate
@@ -17,7 +17,7 @@ tags:
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
-  execute_notebooks: cache
+  execute_notebooks: "binder"
   timeout: 3600
   allow_errors: False # cells with expected failures must set the `raises-exception` cell tag
 
