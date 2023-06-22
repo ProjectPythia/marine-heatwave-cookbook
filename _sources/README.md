@@ -1,4 +1,4 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
+<img src="MHW_maps_demo3.png" alt="MHW_thumbnail" width="300"/>
 
 # Marine Heatwaves Cookbook
 
@@ -20,7 +20,7 @@ This cookbook is mainly based on the
 
 ## Authors
 
-[Chia-Wei Hsu](@chiaweh2)
+[Chia-Wei Hsu](https://chiaweh2.github.io)
 
 ### Contributors
 
