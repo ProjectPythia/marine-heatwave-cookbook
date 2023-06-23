@@ -4,6 +4,7 @@
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/marine-heatwave-cookbook/main?labpath=notebooks)
+[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 This Project Pythia Cookbook covers how marine heatwaves forecast is generated and
 detected based on available observational data. 
@@ -19,7 +20,6 @@ The marine heatwave have started to become one of the many "hot topics" in clima
 This cookbook is mainly based on the 
 
 ## Authors
-
 [Chia-Wei Hsu](https://chiaweh2.github.io)
 
 ### Contributors
