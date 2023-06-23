@@ -1,4 +1,4 @@
-<img src="MHW_maps_demo3.png" alt="MHW_thumbnail" width="300"/>
+<img src="MHW_logo.png" alt="MHW_thumbnail" width="300"/>
 
 # Marine Heatwaves Cookbook
 
@@ -6,41 +6,39 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/marine-heatwave-cookbook/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-This Project Pythia Cookbook covers how marine heatwaves forecast is generated and
-detected based on available observational data. 
+This main goal of this Marine Heatwaves Cookbook is to show how to detect and forecast marine heatwaves based on available observational and model forecast data.
+The step and code used in the cookbook is also used to generate the [Marine Heatwave Portal at NOAA Physcial Science Laboratory](https://psl.noaa.gov/marine-heatwaves/)
+To understand more scientific detail of the forecast skill please check out [Jacox et al., 2022](http://doi.org/10.1038/s41586-022-04573-9)
 
 This cookbook is initiated during the pythia cookoff 2023.
 
-To understand more scientific detail of the forecast skill please check out [Jacox et al., 2022](http://doi.org/10.1038/s41586-022-04573-9)
-
-
 ## Motivation
-
-The marine heatwave have started to become one of the many "hot topics" in climate science. 
-This cookbook is mainly based on the 
+The marine heatwave have started to become one of the many "hot topics" in climate science.
+This cookbook is aiming to show how a marine heatwave is detected and forecast based on [Jacox et al., 2022](http://doi.org/10.1038/s41586-022-04573-9)
 
 ## Authors
 [Chia-Wei Hsu](https://chiaweh2.github.io)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/chiaweh2/marine-heatwave-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=chiaweh2/marine-heatwave-cookbook" />
 </a>
 
 ## Structure
 
-This cookbook is broken up into two main sections - "How a marine heatwave is defined" and "Marine heatwave application"
+This cookbook is broken up into two main chapters - "Foundation" and "Application"
 
-### How a marine heatwave is defined
+### Foundation
 
-In this section, we will use the observational data to show how a marine heatwave is defined.
+In this chapter, we will show how a marine heatwave is detected over the ocean using observational data.
+We will also explain one of the hot discussion topics in the marine heatwave field - "[Marine heatwaves need clear definitions so coastal communities can adapt](https://www.nature.com/articles/d41586-023-00924-2)"
 
-### Marine heatwave application
+### Application
 
-In the application section, we will show 
+In the application chapter, we will show 
 1. How a marine heatwave is being forecast shown in [PSL Marine Heatwave Portal](https://psl.noaa.gov/marine-heatwaves/)?
-2. Is it possible to track how a marine heatwave moves in the ocean?
+1. Is it possible to track how a marine heatwave moves in the ocean?
 
 ## Running the Notebooks
 
