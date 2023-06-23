@@ -1,6 +1,7 @@
 format: jb-book
 root: README
 parts:
-  - caption: Introduction
+  - caption: Foundation
     chapters:
-      - file: notebooks/mhw_observation_myst
+      - file: notebooks/foundation/mhw_observation_myst
+
