@@ -12,6 +12,8 @@ dependencies:
   - matplotlib
   - pydap
   - dask
+  - ipywidgets
+  - plotly
   - pip
   - pip:
       - sphinx-pythia-theme
