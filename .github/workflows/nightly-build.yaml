@@ -10,8 +10,7 @@ jobs:
     if: ${{ github.repository_owner == 'ProjectPythia' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
     with:
-      environment_name: marine-heatwave-cookbook-dev
-      binder_nb_timeout: 3600 # one hour run time
+      environment_name: cookbook-dev
 
   link-check:
     if: ${{ github.repository_owner == 'ProjectPythia' }}
