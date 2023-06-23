@@ -306,13 +306,13 @@ All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code co
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#how-a-marine-heatwave-is-defined">
-     How a marine heatwave is defined
+    <a class="reference internal nav-link" href="#foundation">
+     Foundation
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#marine-heatwave-application">
-     Marine heatwave application
+    <a class="reference internal nav-link" href="#application">
+     Application
     </a>
    </li>
   </ul>
@@ -345,41 +345,42 @@ All code in Pythia Cookbooks is licensed under Apache 2.0. All other non-code co
               
               <div>
                 
-  <a class="reference internal image-reference" href="_images/MHW_maps_demo3.png"><img alt="MHW_thumbnail" src="_images/MHW_maps_demo3.png" style="width: 300px;" /></a>
+  <a class="reference internal image-reference" href="_images/MHW_logo.png"><img alt="MHW_thumbnail" src="_images/MHW_logo.png" style="width: 300px;" /></a>
 <div class="tex2jax_ignore mathjax_ignore section" id="marine-heatwaves-cookbook">
 <h1>Marine Heatwaves Cookbook<a class="headerlink" href="#marine-heatwaves-cookbook" title="Permalink to this headline"><i class="fas fa-link"></i></a></h1>
 <p><a class="reference external" href="https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml"><img alt="nightly-build" src="https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg" /></a>
 <a class="reference external" href="https://binder.projectpythia.org/v2/gh/ProjectPythia/marine-heatwave-cookbook/main?labpath=notebooks"><img alt="Binder" src="https://binder.projectpythia.org/badge_logo.svg" /></a>
 <a class="reference external" href="https://zenodo.org/badge/latestdoi/475509405"><img alt="DOI" src="https://zenodo.org/badge/475509405.svg" /></a></p>
-<p>This Project Pythia Cookbook covers how marine heatwaves forecast is generated and
-detected based on available observational data.</p>
+<p>This main goal of this Marine Heatwaves Cookbook is to show how to detect and forecast marine heatwaves based on available observational and model forecast data.
+The step and code used in the cookbook is also used to generate the <a class="reference external" href="https://psl.noaa.gov/marine-heatwaves/">Marine Heatwave Portal at NOAA Physcial Science Laboratory</a>
+To understand more scientific detail of the forecast skill please check out <a class="reference external" href="http://doi.org/10.1038/s41586-022-04573-9">Jacox et al., 2022</a></p>
 <p>This cookbook is initiated during the pythia cookoff 2023.</p>
-<p>To understand more scientific detail of the forecast skill please check out <a class="reference external" href="http://doi.org/10.1038/s41586-022-04573-9">Jacox et al., 2022</a></p>
 <div class="section" id="motivation">
 <h2>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
 <p>The marine heatwave have started to become one of the many “hot topics” in climate science.
-This cookbook is mainly based on the</p>
+This cookbook is aiming to show how a marine heatwave is detected and forecast based on <a class="reference external" href="http://doi.org/10.1038/s41586-022-04573-9">Jacox et al., 2022</a></p>
 </div>
 <div class="section" id="authors">
 <h2>Authors<a class="headerlink" href="#authors" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
 <p><a class="reference external" href="https://chiaweh2.github.io">Chia-Wei Hsu</a></p>
 <div class="section" id="contributors">
 <h3>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline"><i class="fas fa-link"></i></a></h3>
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/chiaweh2/marine-heatwave-cookbook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=chiaweh2/marine-heatwave-cookbook" />
 </a>
 </div>
 </div>
 <div class="section" id="structure">
 <h2>Structure<a class="headerlink" href="#structure" title="Permalink to this headline"><i class="fas fa-link"></i></a></h2>
-<p>This cookbook is broken up into two main sections - “How a marine heatwave is defined” and “Marine heatwave application”</p>
-<div class="section" id="how-a-marine-heatwave-is-defined">
-<h3>How a marine heatwave is defined<a class="headerlink" href="#how-a-marine-heatwave-is-defined" title="Permalink to this headline"><i class="fas fa-link"></i></a></h3>
-<p>In this section, we will use the observational data to show how a marine heatwave is defined.</p>
+<p>This cookbook is broken up into two main chapters - “Foundation” and “Application”</p>
+<div class="section" id="foundation">
+<h3>Foundation<a class="headerlink" href="#foundation" title="Permalink to this headline"><i class="fas fa-link"></i></a></h3>
+<p>In this chapter, we will show how a marine heatwave is detected over the ocean using observational data.
+We will also explain one of the hot discussion topics in the marine heatwave field - “<a class="reference external" href="https://www.nature.com/articles/d41586-023-00924-2">Marine heatwaves need clear definitions so coastal communities can adapt</a>”</p>
 </div>
-<div class="section" id="marine-heatwave-application">
-<h3>Marine heatwave application<a class="headerlink" href="#marine-heatwave-application" title="Permalink to this headline"><i class="fas fa-link"></i></a></h3>
-<p>In the application section, we will show</p>
+<div class="section" id="application">
+<h3>Application<a class="headerlink" href="#application" title="Permalink to this headline"><i class="fas fa-link"></i></a></h3>
+<p>In the application chapter, we will show</p>
 <ol class="arabic simple">
 <li><p>How a marine heatwave is being forecast shown in <a class="reference external" href="https://psl.noaa.gov/marine-heatwaves/">PSL Marine Heatwave Portal</a>?</p></li>
 <li><p>Is it possible to track how a marine heatwave moves in the ocean?</p></li>
