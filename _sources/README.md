@@ -19,7 +19,7 @@ This cookbook is aiming to show how a marine heatwave is detected and forecast b
 
 ## Authors
 
-[Chia-Wei Hsu](@chiaweh2)
+[Chia-Wei Hsu](https://github.com/chiaweh2)
 
 ### Contributors
 
