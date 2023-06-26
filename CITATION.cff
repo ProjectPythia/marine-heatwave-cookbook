@@ -4,6 +4,8 @@ authors:
   # add additional entries for each author -- see https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
   - family-names: Hsu
     given-names: Chia-Wei
+    orcid: https://orcid.org/0000-0002-4838-0140
+    affiliation: NOAA Physical Science Laboratory/ Univsersity of Colorado, Boulder (CIRES)
     website: https://github.com/chiaweh2
   - name: "Marine Heatwave Cookbook contributors" # use the 'name' field to acknowledge organizations
     website: "https://github.com/ProjectPythia/marine-heatwave-cookbook/graphs/contributors"
