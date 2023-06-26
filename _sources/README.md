@@ -2,9 +2,9 @@
 
 # Marine Heatwaves Cookbook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
+[![nightly-build](https://github.com/ProjectPythia/marine-heatwave-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/marine-heatwave-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/marine-heatwave-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
+[![DOI](https://zenodo.org/badge/656355237.svg)](https://zenodo.org/badge/latestdoi/656355237)
 
 This main goal of this Marine Heatwaves Cookbook is to show how to detect and forecast marine heatwaves based on available observational and model forecast data.
 The step and code used in the cookbook is also used to generate the [Marine Heatwave Portal at NOAA Physcial Science Laboratory](https://psl.noaa.gov/marine-heatwaves/)
@@ -13,11 +13,13 @@ To understand more scientific detail of the forecast skill please check out [Jac
 This cookbook is initiated during the pythia cookoff 2023.
 
 ## Motivation
+
 The marine heatwave have started to become one of the many "hot topics" in climate science.
 This cookbook is aiming to show how a marine heatwave is detected and forecast based on [Jacox et al., 2022](http://doi.org/10.1038/s41586-022-04573-9)
 
 ## Authors
-[Chia-Wei Hsu](https://chiaweh2.github.io)
+
+[Chia-Wei Hsu](@chiaweh2)
 
 ### Contributors
 
@@ -36,7 +38,8 @@ We will also explain one of the hot discussion topics in the marine heatwave fie
 
 ### Application
 
-In the application chapter, we will show 
+In the application chapter, we will show
+
 1. How a marine heatwave is being forecast shown in [PSL Marine Heatwave Portal](https://psl.noaa.gov/marine-heatwaves/)?
 1. Is it possible to track how a marine heatwave moves in the ocean?
 
