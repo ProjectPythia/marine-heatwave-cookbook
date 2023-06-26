@@ -1,6 +1,6 @@
-thumbnail: thumbnail.png
+thumbnail: MHW_maps_demo3.png
 tags:
   domains:
-    - sampledomain
+    - climate
   packages:
-    - samplepackage
+    - xarray

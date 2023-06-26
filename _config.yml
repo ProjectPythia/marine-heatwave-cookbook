@@ -4,16 +4,7 @@
 title: Marine Heatwave Cookbook
 author: Chia-Wei Hsu
 logo: notebooks/images/logos/pythia_logo-white-rtext.svg
-email: projectpythia@ucar.edu
 copyright: "2023"
-
-description: This Project Pythia Cookbook covers how marine heatwaves forecast is generated and detected based on available observational data. 
-thumbnail: MHW_maps_demo3.png
-tags:
-  domains:
-    - climate
-  packages:
-    - xarray
 
 execute:
   # To execute notebooks via a Binder instead, replace 'cache' with 'binder'
