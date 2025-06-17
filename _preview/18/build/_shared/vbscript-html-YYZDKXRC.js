@@ -1,1 +1,1 @@
-import{c as t}from"/marine-heatwave-cookbook/build/_shared/chunk-2NH4LW52.js";var i=t((a,n)=>{function e(s){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}n.exports=e});export default i();
+import{c as t}from"/marine-heatwave-cookbook/_preview/18/build/_shared/chunk-2NH4LW52.js";var i=t((a,n)=>{function e(s){return{name:"VBScript in HTML",subLanguage:"xml",contains:[{begin:"<%",end:"%>",subLanguage:"vbscript"}]}}n.exports=e});export default i();

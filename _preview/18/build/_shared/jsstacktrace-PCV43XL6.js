@@ -1,1 +1,1 @@
-import{a}from"/marine-heatwave-cookbook/build/_shared/chunk-WO4LIS32.js";import"/marine-heatwave-cookbook/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/marine-heatwave-cookbook/_preview/18/build/_shared/chunk-WO4LIS32.js";import"/marine-heatwave-cookbook/_preview/18/build/_shared/chunk-2NH4LW52.js";export default a();
