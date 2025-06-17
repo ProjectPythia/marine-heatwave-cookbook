@@ -1,6 +1,6 @@
-<img src="MHW_logo.png" alt="MHW_thumbnail" width="300"/>
-
 # Marine Heatwaves Cookbook
+
+<img src="MHW_logo.png" alt="MHW_thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/marine-heatwave-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/marine-heatwave-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/marine-heatwave-cookbook/main?labpath=notebooks)
