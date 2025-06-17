@@ -5,7 +5,7 @@ project:
   title: Marine Heatwave Cookbook
   authors:
     - name: Chia-Wei Hsu
-  github: https://github.com/projectpythia-mystmd/marine-heatwave-cookbook
+  github: https://github.com/projectpythia/marine-heatwave-cookbook
   copyright: '2024'
   toc:
     - file: README.md
