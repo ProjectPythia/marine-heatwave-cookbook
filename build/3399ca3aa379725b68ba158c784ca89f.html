@@ -544,10 +544,11 @@ dl.xr-attrs {
 Dimensions:  (time: 24, lat: 720, lon: 1440)
 Coordinates:
   * time     (time) datetime64[ns] 192B 2019-01-01 2019-02-01 ... 2020-12-01
+    month    (time) int64 192B 1 2 3 4 5 6 7 8 9 10 ... 3 4 5 6 7 8 9 10 11 12
   * lat      (lat) float32 3kB -89.88 -89.62 -89.38 -89.12 ... 89.38 89.62 89.88
   * lon      (lon) float32 6kB 0.125 0.375 0.625 0.875 ... 359.4 359.6 359.9
 Data variables:
-    sst      (time, lat, lon) float32 100MB dask.array&lt;chunksize=(11, 720, 1440), meta=np.ndarray&gt;
+    sst      (time, lat, lon) float32 100MB 0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0
 Attributes:
     Conventions:          CF-1.5
     title:                NOAA/NCEI 1/4 Degree Daily Optimum Interpolation Se...
@@ -558,7 +559,7 @@ Attributes:
     version:              Version 2.1
     comment:              Reynolds, et al.(2007) Daily High-Resolution-Blende...
     _NCProperties:        version=2,netcdf=4.7.0,hdf5=1.10.5,
-    Unlimited_Dimension:  time</pre><div class='xr-wrap' style='display:none'><div class='xr-header'><div class='xr-obj-type'>xarray.Dataset</div></div><ul class='xr-sections'><li class='xr-section-item'><input id='section-84f31a69-4526-4495-8f90-07c751605f14' class='xr-section-summary-in' type='checkbox' disabled /><label for='section-84f31a69-4526-4495-8f90-07c751605f14' class='xr-section-summary'>Dimensions:</label><div class='xr-section-inline-details'><ul class='xr-dim-list'><li><span class='xr-has-index'>time</span>: 24</li><li><span class='xr-has-index'>lat</span>: 720</li><li><span class='xr-has-index'>lon</span>: 1440</li></ul></div></li><li class='xr-section-item'><input id='section-5d751cac-4dac-41f4-80b2-a5948c62a8f2' class='xr-section-summary-in' type='checkbox' checked /><label for='section-5d751cac-4dac-41f4-80b2-a5948c62a8f2' class='xr-section-summary' title='Expand/collapse section'>Coordinates: <span>(3)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>time</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>datetime64[ns]</div><div class='xr-var-preview xr-preview'>2019-01-01 ... 2020-12-01</div><input id='attrs-d1d4158d-c717-4414-b1e1-57908d9a605e' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-d1d4158d-c717-4414-b1e1-57908d9a605e' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-569b58ee-3047-4502-97a5-fcd14a3c31b1' class='xr-var-data-in' type='checkbox'><label for='data-569b58ee-3047-4502-97a5-fcd14a3c31b1' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Time</dd><dt><span>delta_t :</span></dt><dd>0000-01-00 00:00:00</dd><dt><span>avg_period :</span></dt><dd>0000-01-00 00:00:00</dd><dt><span>axis :</span></dt><dd>T</dd><dt><span>actual_range :</span></dt><dd>[66352.0, 82545.0]</dd><dt><span>_ChunkSizes :</span></dt><dd>512</dd></dl></div><div class='xr-var-data'><pre>array([&#x27;2019-01-01T00:00:00.000000000&#x27;, &#x27;2019-02-01T00:00:00.000000000&#x27;,
+    Unlimited_Dimension:  time</pre><div class='xr-wrap' style='display:none'><div class='xr-header'><div class='xr-obj-type'>xarray.Dataset</div></div><ul class='xr-sections'><li class='xr-section-item'><input id='section-9f852968-7028-4cc4-85b3-3fa7f49cbf32' class='xr-section-summary-in' type='checkbox' disabled /><label for='section-9f852968-7028-4cc4-85b3-3fa7f49cbf32' class='xr-section-summary'>Dimensions:</label><div class='xr-section-inline-details'><ul class='xr-dim-list'><li><span class='xr-has-index'>time</span>: 24</li><li><span class='xr-has-index'>lat</span>: 720</li><li><span class='xr-has-index'>lon</span>: 1440</li></ul></div></li><li class='xr-section-item'><input id='section-2070f1c5-bea3-4fe2-99c1-dc049fa2f8bb' class='xr-section-summary-in' type='checkbox' checked /><label for='section-2070f1c5-bea3-4fe2-99c1-dc049fa2f8bb' class='xr-section-summary' title='Expand/collapse section'>Coordinates: <span>(4)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>time</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>datetime64[ns]</div><div class='xr-var-preview xr-preview'>2019-01-01 ... 2020-12-01</div><input id='attrs-b469123c-d98b-45b3-b555-0fb290114114' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-b469123c-d98b-45b3-b555-0fb290114114' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-80a6687e-63c9-45e3-ad52-c370c659c997' class='xr-var-data-in' type='checkbox'><label for='data-80a6687e-63c9-45e3-ad52-c370c659c997' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Time</dd><dt><span>delta_t :</span></dt><dd>0000-01-00 00:00:00</dd><dt><span>avg_period :</span></dt><dd>0000-01-00 00:00:00</dd><dt><span>axis :</span></dt><dd>T</dd><dt><span>actual_range :</span></dt><dd>[66352.0, 82545.0]</dd><dt><span>_ChunkSizes :</span></dt><dd>512</dd></dl></div><div class='xr-var-data'><pre>array([&#x27;2019-01-01T00:00:00.000000000&#x27;, &#x27;2019-02-01T00:00:00.000000000&#x27;,
        &#x27;2019-03-01T00:00:00.000000000&#x27;, &#x27;2019-04-01T00:00:00.000000000&#x27;,
        &#x27;2019-05-01T00:00:00.000000000&#x27;, &#x27;2019-06-01T00:00:00.000000000&#x27;,
        &#x27;2019-07-01T00:00:00.000000000&#x27;, &#x27;2019-08-01T00:00:00.000000000&#x27;,
@@ -570,86 +571,47 @@ Attributes:
        &#x27;2020-07-01T00:00:00.000000000&#x27;, &#x27;2020-08-01T00:00:00.000000000&#x27;,
        &#x27;2020-09-01T00:00:00.000000000&#x27;, &#x27;2020-10-01T00:00:00.000000000&#x27;,
        &#x27;2020-11-01T00:00:00.000000000&#x27;, &#x27;2020-12-01T00:00:00.000000000&#x27;],
-      dtype=&#x27;datetime64[ns]&#x27;)</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lat</span></div><div class='xr-var-dims'>(lat)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>-89.88 -89.62 ... 89.62 89.88</div><input id='attrs-9f016d74-e420-4ab5-9f1c-c9ecf57b04b9' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-9f016d74-e420-4ab5-9f1c-c9ecf57b04b9' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-7e927115-7f0c-4939-bbcb-e28a38aa5238' class='xr-var-data-in' type='checkbox'><label for='data-7e927115-7f0c-4939-bbcb-e28a38aa5238' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Latitude</dd><dt><span>standard_name :</span></dt><dd>latitude</dd><dt><span>units :</span></dt><dd>degrees_north</dd><dt><span>actual_range :</span></dt><dd>[-89.875, 89.875]</dd><dt><span>axis :</span></dt><dd>Y</dd></dl></div><div class='xr-var-data'><pre>array([-89.875, -89.625, -89.375, ...,  89.375,  89.625,  89.875],
-      shape=(720,), dtype=float32)</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lon</span></div><div class='xr-var-dims'>(lon)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>0.125 0.375 0.625 ... 359.6 359.9</div><input id='attrs-bb88cd6a-3109-479e-8b80-481c46ac7572' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-bb88cd6a-3109-479e-8b80-481c46ac7572' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-8da045f4-c407-4847-a2b5-ac59d80641d3' class='xr-var-data-in' type='checkbox'><label for='data-8da045f4-c407-4847-a2b5-ac59d80641d3' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Longitude</dd><dt><span>standard_name :</span></dt><dd>longitude</dd><dt><span>units :</span></dt><dd>degrees_east</dd><dt><span>actual_range :</span></dt><dd>[0.125, 359.875]</dd><dt><span>axis :</span></dt><dd>X</dd></dl></div><div class='xr-var-data'><pre>array([1.25000e-01, 3.75000e-01, 6.25000e-01, ..., 3.59375e+02, 3.59625e+02,
-       3.59875e+02], shape=(1440,), dtype=float32)</pre></div></li></ul></div></li><li class='xr-section-item'><input id='section-be9b89ab-1c57-4754-97fd-5168886701bf' class='xr-section-summary-in' type='checkbox' checked /><label for='section-be9b89ab-1c57-4754-97fd-5168886701bf' class='xr-section-summary' title='Expand/collapse section'>Data variables: <span>(1)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span>sst</span></div><div class='xr-var-dims'>(time, lat, lon)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>dask.array&lt;chunksize=(11, 720, 1440), meta=np.ndarray&gt;</div><input id='attrs-5962b078-d16b-4ebb-976c-4792b3e9aff8' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-5962b078-d16b-4ebb-976c-4792b3e9aff8' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-dc11ee2d-4a76-40ce-a097-6dde9635df72' class='xr-var-data-in' type='checkbox'><label for='data-dc11ee2d-4a76-40ce-a097-6dde9635df72' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Monthly Mean of Sea Surface Temperature</dd><dt><span>units :</span></dt><dd>degC</dd><dt><span>valid_range :</span></dt><dd>[-3.0, 45.0]</dd><dt><span>precision :</span></dt><dd>2.0</dd><dt><span>dataset :</span></dt><dd>NOAA High-resolution Blended Analysis</dd><dt><span>var_desc :</span></dt><dd>Sea Surface Temperature</dd><dt><span>level_desc :</span></dt><dd>Surface</dd><dt><span>statistic :</span></dt><dd>Monthly Mean</dd><dt><span>parent_stat :</span></dt><dd>Individual Observations</dd><dt><span>actual_range :</span></dt><dd>[-1.8, 32.14]</dd><dt><span>standard_name :</span></dt><dd>sea_surface_temperature</dd><dt><span>_ChunkSizes :</span></dt><dd>[1, 720, 1440]</dd></dl></div><div class='xr-var-data'><table>
-    <tr>
-        <td>
-            <table style="border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <td> </td>
-                        <th> Array </th>
-                        <th> Chunk </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                    <tr>
-                        <th> Bytes </th>
-                        <td> 94.92 MiB </td>
-                        <td> 51.42 MiB </td>
-                    </tr>
-                    
-                    <tr>
-                        <th> Shape </th>
-                        <td> (24, 720, 1440) </td>
-                        <td> (13, 720, 1440) </td>
-                    </tr>
-                    <tr>
-                        <th> Dask graph </th>
-                        <td colspan="2"> 2 chunks in 6 graph layers </td>
-                    </tr>
-                    <tr>
-                        <th> Data type </th>
-                        <td colspan="2"> float32 numpy.ndarray </td>
-                    </tr>
-                </tbody>
-            </table>
-        </td>
-        <td>
-        <svg width="196" height="126" style="stroke:rgb(0,0,0);stroke-width:1" >
+      dtype=&#x27;datetime64[ns]&#x27;)</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span>month</span></div><div class='xr-var-dims'>(time)</div><div class='xr-var-dtype'>int64</div><div class='xr-var-preview xr-preview'>1 2 3 4 5 6 7 ... 6 7 8 9 10 11 12</div><input id='attrs-ba077451-6b68-4f33-ba1b-c36e5a1c3189' class='xr-var-attrs-in' type='checkbox' disabled><label for='attrs-ba077451-6b68-4f33-ba1b-c36e5a1c3189' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-c60504a9-8cdc-4bc0-b271-c128943ef8cf' class='xr-var-data-in' type='checkbox'><label for='data-c60504a9-8cdc-4bc0-b271-c128943ef8cf' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'></dl></div><div class='xr-var-data'><pre>array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12,  1,  2,  3,  4,  5,
+        6,  7,  8,  9, 10, 11, 12])</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lat</span></div><div class='xr-var-dims'>(lat)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>-89.88 -89.62 ... 89.62 89.88</div><input id='attrs-8026f9b7-3971-429c-89ce-672e3fa8b39d' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-8026f9b7-3971-429c-89ce-672e3fa8b39d' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-03bdedfe-10b7-412f-b7ec-acafc601cdcc' class='xr-var-data-in' type='checkbox'><label for='data-03bdedfe-10b7-412f-b7ec-acafc601cdcc' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Latitude</dd><dt><span>standard_name :</span></dt><dd>latitude</dd><dt><span>units :</span></dt><dd>degrees_north</dd><dt><span>actual_range :</span></dt><dd>[-89.875, 89.875]</dd><dt><span>axis :</span></dt><dd>Y</dd></dl></div><div class='xr-var-data'><pre>array([-89.875, -89.625, -89.375, ...,  89.375,  89.625,  89.875],
+      shape=(720,), dtype=float32)</pre></div></li><li class='xr-var-item'><div class='xr-var-name'><span class='xr-has-index'>lon</span></div><div class='xr-var-dims'>(lon)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>0.125 0.375 0.625 ... 359.6 359.9</div><input id='attrs-5dfc89fb-811d-475d-ac1c-4a9c27e678c2' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-5dfc89fb-811d-475d-ac1c-4a9c27e678c2' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-1e3936f6-4fbb-4405-80b9-32ab47f7879b' class='xr-var-data-in' type='checkbox'><label for='data-1e3936f6-4fbb-4405-80b9-32ab47f7879b' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Longitude</dd><dt><span>standard_name :</span></dt><dd>longitude</dd><dt><span>units :</span></dt><dd>degrees_east</dd><dt><span>actual_range :</span></dt><dd>[0.125, 359.875]</dd><dt><span>axis :</span></dt><dd>X</dd></dl></div><div class='xr-var-data'><pre>array([1.25000e-01, 3.75000e-01, 6.25000e-01, ..., 3.59375e+02, 3.59625e+02,
+       3.59875e+02], shape=(1440,), dtype=float32)</pre></div></li></ul></div></li><li class='xr-section-item'><input id='section-c27e00cf-359e-4535-94e0-8c81dac69532' class='xr-section-summary-in' type='checkbox' checked /><label for='section-c27e00cf-359e-4535-94e0-8c81dac69532' class='xr-section-summary' title='Expand/collapse section'>Data variables: <span>(1)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><ul class='xr-var-list'><li class='xr-var-item'><div class='xr-var-name'><span>sst</span></div><div class='xr-var-dims'>(time, lat, lon)</div><div class='xr-var-dtype'>float32</div><div class='xr-var-preview xr-preview'>0.0 0.0 0.0 0.0 ... 0.0 0.0 0.0</div><input id='attrs-a8ad4f23-5a69-42c4-b601-8385668c423d' class='xr-var-attrs-in' type='checkbox' ><label for='attrs-a8ad4f23-5a69-42c4-b601-8385668c423d' title='Show/Hide attributes'><svg class='icon xr-icon-file-text2'><use xlink:href='#icon-file-text2'></use></svg></label><input id='data-6f7ed1ee-41d1-41bf-9745-2311cea52563' class='xr-var-data-in' type='checkbox'><label for='data-6f7ed1ee-41d1-41bf-9745-2311cea52563' title='Show/Hide data repr'><svg class='icon xr-icon-database'><use xlink:href='#icon-database'></use></svg></label><div class='xr-var-attrs'><dl class='xr-attrs'><dt><span>long_name :</span></dt><dd>Monthly Mean of Sea Surface Temperature</dd><dt><span>units :</span></dt><dd>degC</dd><dt><span>valid_range :</span></dt><dd>[-3.0, 45.0]</dd><dt><span>precision :</span></dt><dd>2.0</dd><dt><span>dataset :</span></dt><dd>NOAA High-resolution Blended Analysis</dd><dt><span>var_desc :</span></dt><dd>Sea Surface Temperature</dd><dt><span>level_desc :</span></dt><dd>Surface</dd><dt><span>statistic :</span></dt><dd>Monthly Mean</dd><dt><span>parent_stat :</span></dt><dd>Individual Observations</dd><dt><span>actual_range :</span></dt><dd>[-1.8, 32.14]</dd><dt><span>standard_name :</span></dt><dd>sea_surface_temperature</dd><dt><span>_ChunkSizes :</span></dt><dd>[1, 720, 1440]</dd></dl></div><div class='xr-var-data'><pre>array([[[ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        ...,
+        [ 0.00532258,  0.00532258,  0.00693548, ...,  0.00596774,
+          0.00629032,  0.00516129],
+        [ 0.00241935,  0.00274193,  0.00177419, ...,  0.00370967,
+          0.00274193,  0.00290322],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ]],
 
-  <!-- Horizontal lines -->
-  <line x1="10" y1="0" x2="26" y2="16" style="stroke-width:2" />
-  <line x1="10" y1="60" x2="26" y2="76" style="stroke-width:2" />
+       [[ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+...
+        [ 0.02583337,  0.02333331,  0.02299988, ...,  0.01999998,
+          0.02166665,  0.02499998],
+        [ 0.01749992,  0.01249993,  0.01049995, ...,  0.01033342,
+          0.0126667 ,  0.01599991],
+        [ 0.        ,  0.        ,  0.00849998, ...,  0.00516665,
+          0.        ,  0.        ]],
 
-  <!-- Vertical lines -->
-  <line x1="10" y1="0" x2="10" y2="60" style="stroke-width:2" />
-  <line x1="17" y1="7" x2="17" y2="67" />
-  <line x1="26" y1="16" x2="26" y2="76" style="stroke-width:2" />
-
-  <!-- Colored Rectangle -->
-  <polygon points="10.0,0.0 26.484080952415905,16.484080952415905 26.484080952415905,76.48408095241591 10.0,60.0" style="fill:#ECB172A0;stroke-width:0"/>
-
-  <!-- Horizontal lines -->
-  <line x1="10" y1="0" x2="130" y2="0" style="stroke-width:2" />
-  <line x1="17" y1="7" x2="137" y2="7" />
-  <line x1="26" y1="16" x2="146" y2="16" style="stroke-width:2" />
-
-  <!-- Vertical lines -->
-  <line x1="10" y1="0" x2="26" y2="16" style="stroke-width:2" />
-  <line x1="130" y1="0" x2="146" y2="16" style="stroke-width:2" />
-
-  <!-- Colored Rectangle -->
-  <polygon points="10.0,0.0 130.0,0.0 146.4840809524159,16.484080952415905 26.484080952415905,16.484080952415905" style="fill:#ECB172A0;stroke-width:0"/>
-
-  <!-- Horizontal lines -->
-  <line x1="26" y1="16" x2="146" y2="16" style="stroke-width:2" />
-  <line x1="26" y1="76" x2="146" y2="76" style="stroke-width:2" />
-
-  <!-- Vertical lines -->
-  <line x1="26" y1="16" x2="26" y2="76" style="stroke-width:2" />
-  <line x1="146" y1="16" x2="146" y2="76" style="stroke-width:2" />
-
-  <!-- Colored Rectangle -->
-  <polygon points="26.484080952415905,16.484080952415905 146.4840809524159,16.484080952415905 146.4840809524159,76.48408095241591 26.484080952415905,76.48408095241591" style="fill:#ECB172A0;stroke-width:0"/>
-
-  <!-- Text -->
-  <text x="86.4840809524159" y="96.48408095241591" font-size="1.0rem" font-weight="100" text-anchor="middle" >1440</text>
-  <text x="166.4840809524159" y="46.48408095241591" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(-90,166.4840809524159,46.48408095241591)">720</text>
-  <text x="8.242040476207954" y="88.24204047620796" font-size="1.0rem" font-weight="100" text-anchor="middle" transform="rotate(45,8.242040476207954,88.24204047620796)">24</text>
-</svg>
-        </td>
-    </tr>
-</table></div></li></ul></div></li><li class='xr-section-item'><input id='section-047863ed-c05d-4b24-a115-85377b7516a5' class='xr-section-summary-in' type='checkbox' /><label for='section-047863ed-c05d-4b24-a115-85377b7516a5' class='xr-section-summary' title='Expand/collapse section'>Attributes: <span>(10)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><dl class='xr-attrs'><dt><span>Conventions :</span></dt><dd>CF-1.5</dd><dt><span>title :</span></dt><dd>NOAA/NCEI 1/4 Degree Daily Optimum Interpolation Sea Surface Temperature (OISST) Analysis, Version 2.1</dd><dt><span>institution :</span></dt><dd>NOAA/National Centers for Environmental Information</dd><dt><span>source :</span></dt><dd>NOAA/NCEI https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/</dd><dt><span>References :</span></dt><dd>https://www.psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html</dd><dt><span>dataset_title :</span></dt><dd>NOAA Daily Optimum Interpolation Sea Surface Temperature</dd><dt><span>version :</span></dt><dd>Version 2.1</dd><dt><span>comment :</span></dt><dd>Reynolds, et al.(2007) Daily High-Resolution-Blended Analyses for Sea Surface Temperature (available at https://doi.org/10.1175/2007JCLI1824.1). Banzon, et al.(2016) A long-term record of blended satellite and in situ sea-surface temperature for climate monitoring, modeling and environmental studies (available at https://doi.org/10.5194/essd-8-165-2016). Huang, B., C. Liu, V. Banzon, E. Freeman, G. Graham, B. Hankins, T. Smith, and H.-M. Zhang, 2021: Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1 (available at https://doi.org/10.1175/JCLI-D-20-0166.1). Anomaly is based on 1971-2000 OI.v2 SST. Satellite data: multi-satellite sensor (AVHRR+VIIRS) data. Ice data: NCEP Ice and GSFC Ice. Data less than 15 days old may be subject to revision.</dd><dt><span>_NCProperties :</span></dt><dd>version=2,netcdf=4.7.0,hdf5=1.10.5,</dd><dt><span>Unlimited_Dimension :</span></dt><dd>time</dd></dl></div></li></ul></div></div>
+       [[ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ],
+        ...,
+        [ 0.00451612,  0.00467741,  0.00580645, ...,  0.00612903,
+          0.00564516,  0.00419354],
+        [ 0.00016129,  0.00177419,  0.00419354, ...,  0.00403225,
+          0.00225806, -0.00096774],
+        [ 0.        ,  0.        ,  0.        , ...,  0.        ,
+          0.        ,  0.        ]]], shape=(24, 720, 1440), dtype=float32)</pre></div></li></ul></div></li><li class='xr-section-item'><input id='section-0c056190-01ea-4a8c-837a-a12b9159c998' class='xr-section-summary-in' type='checkbox' /><label for='section-0c056190-01ea-4a8c-837a-a12b9159c998' class='xr-section-summary' title='Expand/collapse section'>Attributes: <span>(10)</span></label><div class='xr-section-inline-details'></div><div class='xr-section-details'><dl class='xr-attrs'><dt><span>Conventions :</span></dt><dd>CF-1.5</dd><dt><span>title :</span></dt><dd>NOAA/NCEI 1/4 Degree Daily Optimum Interpolation Sea Surface Temperature (OISST) Analysis, Version 2.1</dd><dt><span>institution :</span></dt><dd>NOAA/National Centers for Environmental Information</dd><dt><span>source :</span></dt><dd>NOAA/NCEI https://www.ncei.noaa.gov/data/sea-surface-temperature-optimum-interpolation/v2.1/access/avhrr/</dd><dt><span>References :</span></dt><dd>https://www.psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html</dd><dt><span>dataset_title :</span></dt><dd>NOAA Daily Optimum Interpolation Sea Surface Temperature</dd><dt><span>version :</span></dt><dd>Version 2.1</dd><dt><span>comment :</span></dt><dd>Reynolds, et al.(2007) Daily High-Resolution-Blended Analyses for Sea Surface Temperature (available at https://doi.org/10.1175/2007JCLI1824.1). Banzon, et al.(2016) A long-term record of blended satellite and in situ sea-surface temperature for climate monitoring, modeling and environmental studies (available at https://doi.org/10.5194/essd-8-165-2016). Huang, B., C. Liu, V. Banzon, E. Freeman, G. Graham, B. Hankins, T. Smith, and H.-M. Zhang, 2021: Improvements of the Daily Optimum Interpolation Sea Surface Temperature (DOISST) Version 2.1 (available at https://doi.org/10.1175/JCLI-D-20-0166.1). Anomaly is based on 1971-2000 OI.v2 SST. Satellite data: multi-satellite sensor (AVHRR+VIIRS) data. Ice data: NCEP Ice and GSFC Ice. Data less than 15 days old may be subject to revision.</dd><dt><span>_NCProperties :</span></dt><dd>version=2,netcdf=4.7.0,hdf5=1.10.5,</dd><dt><span>Unlimited_Dimension :</span></dt><dd>time</dd></dl></div></li></ul></div></div>
