@@ -1,0 +1,1 @@
+import{a}from"/marine-heatwave-cookbook/_preview/24/build/_shared/chunk-IRH6KG7U.js";import"/marine-heatwave-cookbook/_preview/24/build/_shared/chunk-J3PKFMLQ.js";import"/marine-heatwave-cookbook/_preview/24/build/_shared/chunk-OZE3FFNP.js";export default a();
